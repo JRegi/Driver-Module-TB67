@@ -1,0 +1,223 @@
+(pcb D:\cosas de jere\driver_dual_TB67H450\freerouting.dsn
+  (parser
+    (string_quote ")
+    (space_in_quoted_tokens on)
+    (host_cad "KiCad's Pcbnew")
+    (host_version "8.0.4")
+  )
+  (resolution um 10)
+  (unit um)
+  (structure
+    (layer F.Cu
+      (type signal)
+      (property
+        (index 0)
+      )
+    )
+    (layer B.Cu
+      (type signal)
+      (property
+        (index 1)
+      )
+    )
+    (boundary
+      (path pcb 0  120850 -121250  103850 -121250  103850 -102250  120850 -102250
+            120850 -121250)
+    )
+    (via "Via[0-1]_600:300_um")
+    (rule
+      (width 200)
+      (clearance 200)
+      (clearance 200 (type default_smd))
+      (clearance 50 (type smd_smd))
+    )
+  )
+  (placement
+    (component Connector_PinHeader_2.54mm:PinHeader_1x07_P2.54mm_Vertical
+      (place J2 119040.000000 -104110.000000 front 0.000000 (PN Conn_01x07_Pin))
+      (place J1 105650.000000 -104110.000000 front 0.000000 (PN Conn_01x07_Pin))
+    )
+    (component TB67H450FNG_EL:TB67H450FNG_EL
+      (place IC2 111220.000000 -108215.000000 front 0.000000 (PN Motor_B))
+      (place IC1 111220.000000 -115955.000000 front 0.000000 (PN Motor_A))
+    )
+    (component Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder
+      (place C4 116160.000000 -107730.000000 front 90.000000 (PN 100nF))
+      (place C2 116160.000000 -115605.000000 front 90.000000 (PN 100nF))
+    )
+  )
+  (library
+    (image Connector_PinHeader_2.54mm:PinHeader_1x07_P2.54mm_Vertical
+      (outline (path signal 120  -1330 1330  0 1330))
+      (outline (path signal 120  -1330 0  -1330 1330))
+      (outline (path signal 120  -1330 -1270  -1330 -16570))
+      (outline (path signal 120  -1330 -1270  1330 -1270))
+      (outline (path signal 120  -1330 -16570  1330 -16570))
+      (outline (path signal 120  1330 -1270  1330 -16570))
+      (outline (path signal 50  -1800 1800  -1800 -17050))
+      (outline (path signal 50  -1800 -17050  1800 -17050))
+      (outline (path signal 50  1800 1800  -1800 1800))
+      (outline (path signal 50  1800 -17050  1800 1800))
+      (outline (path signal 100  -1270 635  -635 1270))
+      (outline (path signal 100  -1270 -16510  -1270 635))
+      (outline (path signal 100  -635 1270  1270 1270))
+      (outline (path signal 100  1270 1270  1270 -16510))
+      (outline (path signal 100  1270 -16510  -1270 -16510))
+      (pin Rect[A]Pad_1700x1700_um 1 0 0)
+      (pin Oval[A]Pad_1700x1700_um 2 0 -2540)
+      (pin Oval[A]Pad_1700x1700_um 3 0 -5080)
+      (pin Oval[A]Pad_1700x1700_um 4 0 -7620)
+      (pin Oval[A]Pad_1700x1700_um 5 0 -10160)
+      (pin Oval[A]Pad_1700x1700_um 6 0 -12700)
+      (pin Oval[A]Pad_1700x1700_um 7 0 -15240)
+    )
+    (image TB67H450FNG_EL:TB67H450FNG_EL
+      (outline (path signal 127  -1950 2525  1950 2525))
+      (outline (path signal 127  -1950 -2525  1950 -2525))
+      (outline (path signal 200  -4000 1905  -4015.88 1850.94  -4058.46 1814.04  -4114.23 1806.02
+            -4165.49 1829.42  -4195.95 1876.83  -4195.95 1933.17  -4165.49 1980.58
+            -4114.23 2003.98  -4058.46 1995.96  -4015.88 1959.06  -4000 1905))
+      (outline (path signal 50  -3710 2700  -3710 -2700))
+      (outline (path signal 50  -3710 2700  3710 2700))
+      (outline (path signal 50  -3710 -2700  3710 -2700))
+      (outline (path signal 50  3710 2700  3710 -2700))
+      (outline (path signal 127  -1950 2450  -1950 -2450))
+      (outline (path signal 127  -1950 2450  1950 2450))
+      (outline (path signal 127  -1950 -2450  1950 -2450))
+      (outline (path signal 127  1950 2450  1950 -2450))
+      (outline (path signal 200  -4000 1905  -4015.88 1850.94  -4058.46 1814.04  -4114.23 1806.02
+            -4165.49 1829.42  -4195.95 1876.83  -4195.95 1933.17  -4165.49 1980.58
+            -4114.23 2003.98  -4058.46 1995.96  -4015.88 1959.06  -4000 1905))
+      (pin RoundRect[T]Pad_1970x580_40.754_um_0.000000_0 1 -2470 1905)
+      (pin RoundRect[T]Pad_1970x580_40.754_um_0.000000_0 2 -2470 635)
+      (pin RoundRect[T]Pad_1970x580_40.754_um_0.000000_0 3 -2470 -635)
+      (pin RoundRect[T]Pad_1970x580_40.754_um_0.000000_0 4 -2470 -1905)
+      (pin RoundRect[T]Pad_1970x580_40.754_um_0.000000_0 5 2470 -1905)
+      (pin RoundRect[T]Pad_1970x580_40.754_um_0.000000_0 6 2470 -635)
+      (pin RoundRect[T]Pad_1970x580_40.754_um_0.000000_0 7 2470 635)
+      (pin RoundRect[T]Pad_1970x580_40.754_um_0.000000_0 8 2470 1905)
+      (pin Rect[T]Pad_2285x2285_um 9 0 0)
+    )
+    (image Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder
+      (outline (path signal 120  -261.252 735  261.252 735))
+      (outline (path signal 120  -261.252 -735  261.252 -735))
+      (outline (path signal 50  -1880 980  1880 980))
+      (outline (path signal 50  -1880 -980  -1880 980))
+      (outline (path signal 50  1880 980  1880 -980))
+      (outline (path signal 50  1880 -980  -1880 -980))
+      (outline (path signal 100  -1000 625  1000 625))
+      (outline (path signal 100  -1000 -625  -1000 625))
+      (outline (path signal 100  1000 625  1000 -625))
+      (outline (path signal 100  1000 -625  -1000 -625))
+      (pin RoundRect[T]Pad_1175x1450_250.951_um_0.000000_0 1 -1037.5 0)
+      (pin RoundRect[T]Pad_1175x1450_250.951_um_0.000000_0 2 1037.5 0)
+    )
+    (padstack Oval[A]Pad_1700x1700_um
+      (shape (path F.Cu 1700  0 0  0 0))
+      (shape (path B.Cu 1700  0 0  0 0))
+      (attach off)
+    )
+    (padstack RoundRect[T]Pad_1175x1450_250.951_um_0.000000_0
+      (shape (polygon F.Cu 0  -588.451 475  -569.348 571.035  -514.949 652.449  -433.535 706.848
+            -337.499 725.95  337.5 725.951  433.535 706.848  514.949 652.449
+            569.348 571.035  588.45 474.999  588.451 -475  569.348 -571.035
+            514.949 -652.449  433.535 -706.848  337.499 -725.95  -337.5 -725.951
+            -433.535 -706.848  -514.949 -652.449  -569.348 -571.035  -588.45 -474.999
+            -588.451 475))
+      (attach off)
+    )
+    (padstack RoundRect[T]Pad_1970x580_40.754_um_0.000000_0
+      (shape (polygon F.Cu 0  -985.154 249.4  -982.052 264.996  -973.217 278.217  -959.996 287.052
+            -944.4 290.154  944.4 290.154  959.996 287.052  973.217 278.217
+            982.052 264.996  985.154 249.4  985.154 -249.4  982.052 -264.996
+            973.217 -278.217  959.996 -287.052  944.4 -290.154  -944.4 -290.154
+            -959.996 -287.052  -973.217 -278.217  -982.052 -264.996  -985.154 -249.4
+            -985.154 249.4))
+      (attach off)
+    )
+    (padstack Rect[T]Pad_2285x2285_um
+      (shape (rect F.Cu -1142.5 -1142.5 1142.5 1142.5))
+      (attach off)
+    )
+    (padstack Rect[A]Pad_1700x1700_um
+      (shape (rect F.Cu -850 -850 850 850))
+      (shape (rect B.Cu -850 -850 850 850))
+      (attach off)
+    )
+    (padstack "Via[0-1]_600:300_um"
+      (shape (circle F.Cu 600))
+      (shape (circle B.Cu 600))
+      (attach off)
+    )
+  )
+  (network
+    (net /OUT_A2
+      (pins J2-5 IC1-8 C2-2)
+    )
+    (net /OUT_A1
+      (pins J2-6 IC1-6 C2-1)
+    )
+    (net /OUT_B1
+      (pins J2-3 IC2-6 C4-1)
+    )
+    (net /OUT_B2
+      (pins J2-2 IC2-8 C4-2)
+    )
+    (net GND
+      (pins J2-1 IC2-1 IC2-7 IC2-9 IC1-1 IC1-7 IC1-9)
+    )
+    (net /VM
+      (pins J2-4 J2-7 IC2-5 IC1-5)
+    )
+    (net /VREF
+      (pins IC2-4 IC1-4)
+    )
+    (net /IN_A2
+      (pins IC1-2)
+    )
+    (net /IN_A1
+      (pins IC1-3)
+    )
+    (net /IN_B2
+      (pins IC2-2)
+    )
+    (net /IN_B1
+      (pins IC2-3)
+    )
+    (net "unconnected-(J1-Pin_7-Pad7)"
+      (pins J1-7)
+    )
+    (net "unconnected-(J1-Pin_6-Pad6)"
+      (pins J1-6)
+    )
+    (net "unconnected-(J1-Pin_4-Pad4)"
+      (pins J1-4)
+    )
+    (net "unconnected-(J1-Pin_2-Pad2)"
+      (pins J1-2)
+    )
+    (net "unconnected-(J1-Pin_5-Pad5)"
+      (pins J1-5)
+    )
+    (net "unconnected-(J1-Pin_1-Pad1)"
+      (pins J1-1)
+    )
+    (net "unconnected-(J1-Pin_3-Pad3)"
+      (pins J1-3)
+    )
+    (class kicad_default "" /IN_A1 /IN_A2 /IN_B1 /IN_B2 /OUT_A1 /OUT_A2 /OUT_B1
+      /OUT_B2 /VM /VREF GND "unconnected-(J1-Pin_1-Pad1)" "unconnected-(J1-Pin_2-Pad2)"
+      "unconnected-(J1-Pin_3-Pad3)" "unconnected-(J1-Pin_4-Pad4)" "unconnected-(J1-Pin_5-Pad5)"
+      "unconnected-(J1-Pin_6-Pad6)" "unconnected-(J1-Pin_7-Pad7)"
+      (circuit
+        (use_via Via[0-1]_600:300_um)
+      )
+      (rule
+        (width 200)
+        (clearance 200)
+      )
+    )
+  )
+  (wiring
+  )
+)
