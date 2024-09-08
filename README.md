@@ -1,4 +1,4 @@
-# Dual Driver Module TB67H450FNG
+# Dual Driver Module with TB67H450FNG
 
 ## **Description**
 A little module with two TB67H450FNG full-bridge drivers.
