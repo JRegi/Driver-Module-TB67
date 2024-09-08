@@ -370,141 +370,6 @@
 				)
 			)
 		)
-		(symbol "Device:C_Small"
-			(pin_numbers hide)
-			(pin_names
-				(offset 0.254) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "C"
-				(at 0.254 1.778 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "C_Small"
-				(at 0.254 -2.032 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Unpolarized capacitor, small symbol"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "capacitor cap"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "C_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "C_Small_0_1"
-				(polyline
-					(pts
-						(xy -1.524 -0.508) (xy 1.524 -0.508)
-					)
-					(stroke
-						(width 0.3302)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.524 0.508) (xy 1.524 0.508)
-					)
-					(stroke
-						(width 0.3048)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "C_Small_1_1"
-				(pin passive line
-					(at 0 2.54 270)
-					(length 2.032)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -2.54 90)
-					(length 2.032)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "TB67H450FNG_EL:TB67H450FNG,EL"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -879,36 +744,6 @@
 			)
 		)
 	)
-	(junction
-		(at 38.1 41.91)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "12cc11d7-f526-4e08-b245-20ff1a4dacae")
-	)
-	(junction
-		(at 38.1 101.6)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2f333c34-3665-4d52-b4ae-adb5e81a2c0a")
-	)
-	(junction
-		(at 38.1 46.99)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c02e436f-16ea-47e6-ad3a-f89b511b8491")
-	)
-	(junction
-		(at 45.72 39.37)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "cb8fdaaa-d4fa-411b-93c5-e3b940ff9929")
-	)
-	(junction
-		(at 38.1 106.68)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "dd5c1f24-fb6e-47ee-af3c-45c498a53138")
-	)
 	(wire
 		(pts
 			(xy 44.45 44.45) (xy 44.45 49.53)
@@ -1031,7 +866,7 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 106.68) (xy 46.99 106.68)
+			(xy 36.83 106.68) (xy 46.99 106.68)
 		)
 		(stroke
 			(width 0)
@@ -1091,16 +926,6 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 46.99) (xy 38.1 46.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "69585705-4665-46f9-8c1a-f3a78c2d8535")
-	)
-	(wire
-		(pts
 			(xy 120.65 58.42) (xy 123.19 58.42)
 		)
 		(stroke
@@ -1121,7 +946,7 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 46.99) (xy 46.99 46.99)
+			(xy 36.83 46.99) (xy 46.99 46.99)
 		)
 		(stroke
 			(width 0)
@@ -1138,26 +963,6 @@
 			(type default)
 		)
 		(uuid "81c3f303-068d-4b23-aed4-47a4a530c2a5")
-	)
-	(wire
-		(pts
-			(xy 36.83 106.68) (xy 38.1 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8a539261-c99d-4332-86b0-a62d8c6966d0")
-	)
-	(wire
-		(pts
-			(xy 36.83 101.6) (xy 38.1 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "92b92512-f650-4a13-a1b5-892a771b9718")
 	)
 	(wire
 		(pts
@@ -1181,7 +986,7 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 41.91) (xy 46.99 41.91)
+			(xy 36.83 41.91) (xy 46.99 41.91)
 		)
 		(stroke
 			(width 0)
@@ -1211,7 +1016,7 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 39.37) (xy 45.72 39.37)
+			(xy 36.83 39.37) (xy 46.99 39.37)
 		)
 		(stroke
 			(width 0)
@@ -1221,7 +1026,7 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 101.6) (xy 46.99 101.6)
+			(xy 36.83 101.6) (xy 46.99 101.6)
 		)
 		(stroke
 			(width 0)
@@ -1238,26 +1043,6 @@
 			(type default)
 		)
 		(uuid "be990986-7a6e-4805-be2a-76e10471dd32")
-	)
-	(wire
-		(pts
-			(xy 45.72 39.37) (xy 46.99 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c7d445c3-6bad-4e7e-85a4-396ad9bc3537")
-	)
-	(wire
-		(pts
-			(xy 36.83 41.91) (xy 38.1 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cd93db96-91df-4c05-8357-44091289bdb4")
 	)
 	(wire
 		(pts
@@ -1278,16 +1063,6 @@
 			(type default)
 		)
 		(uuid "e1b04e99-2fde-4918-a634-b75e03b8fea5")
-	)
-	(wire
-		(pts
-			(xy 45.72 39.37) (xy 45.72 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e7f9e1c0-8786-4275-b9df-90fd1eb35277")
 	)
 	(rectangle
 		(start 15.875 74.295)
@@ -1914,75 +1689,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
-		(at 38.1 44.45 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "7b3948b8-611b-4e2d-9694-d1866be3af61")
-		(property "Reference" "C2"
-			(at 39.624 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100nF"
-			(at 38.1 42.926 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 38.1 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 38.1 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 38.1 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "bb5905e1-62c0-479a-afe3-c3d6b7b9a691")
-		)
-		(pin "2"
-			(uuid "fe7b5c43-cec4-42fa-9197-ae24d5698446")
-		)
-		(instances
-			(project "driver_dual_TB67H450"
-				(path "/f2a6858f-f9d0-41c3-b1f2-5194c6bbfd5f"
-					(reference "C2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 73.66 49.53 0)
 		(unit 1)
@@ -2452,75 +2158,6 @@
 			(project "driver_dual_TB67H450"
 				(path "/f2a6858f-f9d0-41c3-b1f2-5194c6bbfd5f"
 					(reference "#PWR08")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 38.1 104.14 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f348f42a-8448-4861-b587-84b7ff024630")
-		(property "Reference" "C4"
-			(at 39.37 105.664 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100nF"
-			(at 38.1 102.616 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 38.1 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 38.1 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 38.1 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "03111cf1-6513-46d9-a432-0836d7bc9fec")
-		)
-		(pin "2"
-			(uuid "cc6bd3a6-539a-4e8d-9bad-75cbe3a0f680")
-		)
-		(instances
-			(project "driver_dual_TB67H450"
-				(path "/f2a6858f-f9d0-41c3-b1f2-5194c6bbfd5f"
-					(reference "C4")
 					(unit 1)
 				)
 			)
