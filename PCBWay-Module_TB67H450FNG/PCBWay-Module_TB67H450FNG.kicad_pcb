@@ -64,7 +64,6 @@
 			(dielectric_constraints no)
 		)
 		(pad_to_mask_clearance 0)
-		(solder_mask_min_width 0.1016)
 		(allow_soldermask_bridges_in_footprints no)
 		(pcbplotparams
 			(layerselection 0x00010fc_ffffffff)
@@ -101,7 +100,7 @@
 			(mirror no)
 			(drillshape 0)
 			(scaleselection 1)
-			(outputdirectory "gerber/")
+			(outputdirectory "gerber_TB67/")
 		)
 	)
 	(net 0 "")
@@ -742,7 +741,7 @@
 		(descr "C, Disc series, Radial, pin pitch=5.00mm, , diameter*width=4.3*1.9mm^2, Capacitor, http://www.vishay.com/docs/45233/krseries.pdf")
 		(tags "C Disc series Radial pin pitch 5.00mm  diameter 4.3mm width 1.9mm Capacitor")
 		(property "Reference" "C3"
-			(at 2.5 -2.2 360)
+			(at 2.5 -2.2 0)
 			(layer "F.SilkS")
 			(uuid "da90ea95-1a19-4959-bbcc-9680355d0989")
 			(effects
@@ -753,7 +752,7 @@
 			)
 		)
 		(property "Value" "100"
-			(at 2.5 2.2 360)
+			(at 2.5 2.2 0)
 			(layer "F.Fab")
 			(uuid "06e094cc-5519-4b5f-b3c2-96e9d33eb43d")
 			(effects
@@ -948,7 +947,7 @@
 			(uuid "1a1a62a6-628c-4feb-825c-097eeec28b62")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 2.5 0 360)
+			(at 2.5 0 0)
 			(layer "F.Fab")
 			(uuid "8404989a-ed6f-436c-ba24-9273f0abbceb")
 			(effects
